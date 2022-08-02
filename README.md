@@ -18,3 +18,21 @@ d'apprentissage automatique et des réseaux de neurones profonds ont été utili
 la fonction non codante de l'ADN, identifier les protéines de liaison à l'ADN et même prédire
 le niveau de transcription des gènes.
 
+### About Dataset
+Le jeu de données Molecular Biology (Splice-junction Gene Sequences) concerne les jonctions
+d'épissage. Dans les gènes, il y a des régions qui sont enlevées pendant le processus de transcription de
+l'ARN appelé introns et régions utilisées pour générer de l'ARNm appelés exons. Les jonctions entre
+elles sont appelées jonctions d'épissage. La tâche consiste à déterminer si le milieu de la séquence est
+une jonction d'épissage et quel est son type : les jonctions d'épissage sont de deux types :
+- Exon-intron (EI) : représente la fin d'un exon et le début d'un intron
+- Intron-exon (IE) : représente l'endroit où l'intron se termine et où commence l'exon suivant,
+ou section codante.
+
+Dans ce jeu de données, les échantillons sont des séquences d'une longueur de 60 paires de
+bases et appartiennent à l'une des trois classes :
+
+- « EI » (jonction exon-intron) qui contient la jonction exon-intron.
+- « IE » (jonction Intron-Exon) qui contient la jonction intron-exon.
+- "N" (Ni EI ni IE) qui ne contient aucune jonction d'épissage.
+
+![INTRON_EXON](https://user-images.githubusercontent.com/93741954/182471050-6630546b-7c61-4c4e-9624-728c00ca8aad.png)
