@@ -1,5 +1,7 @@
 # Prediction de la fonction non codante de l'ADN
 
+![ADN](https://user-images.githubusercontent.com/93741954/182470078-c5747684-2e9e-4893-abc7-6ef74486665c.jpg)
+
 ### Introduction
 L'ADN porte des instructions génétiques pour le développement, la fonction, la
 croissance et la reproduction de tous les organismes connus. L'ADN est essentiellement le
